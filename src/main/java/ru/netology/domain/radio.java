@@ -1,2 +1,4 @@
-package ru.netology.domain;public class radio {
+package ru.netology.domain;
+
+public class radio {
 }
