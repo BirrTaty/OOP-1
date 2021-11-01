@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb2b69e6-3ba9-4f31-8f8c-08064dc21cca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CI/CI-1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -52,7 +52,7 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest.shouldSwitchPreviousOverLimit">
+  <component name="RunManager" selected="JUnit.RadioTest.shouldDecreaseVolume">
     <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP-1" />
       <extension name="coverage">
@@ -68,7 +68,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.shouldSwitchNextOverLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.shouldDecreaseVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP-1" />
       <extension name="coverage">
         <pattern>
@@ -78,13 +78,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
-      <option name="METHOD_NAME" value="shouldSwitchNextOverLimit" />
+      <option name="METHOD_NAME" value="shouldDecreaseVolume" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.shouldSwitchNextStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.shouldDecreaseVolumeUnderLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP-1" />
       <extension name="coverage">
         <pattern>
@@ -94,13 +94,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
-      <option name="METHOD_NAME" value="shouldSwitchNextStation" />
+      <option name="METHOD_NAME" value="shouldDecreaseVolumeUnderLimit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.shouldSwitchPreviousOverLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.shouldIncreaseVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP-1" />
       <extension name="coverage">
         <pattern>
@@ -110,13 +110,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
-      <option name="METHOD_NAME" value="shouldSwitchPreviousOverLimit" />
+      <option name="METHOD_NAME" value="shouldIncreaseVolume" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.shouldSwitchPreviousStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.shouldIncreaseVolumeUpperLimitValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP-1" />
       <extension name="coverage">
         <pattern>
@@ -126,7 +126,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
-      <option name="METHOD_NAME" value="shouldSwitchPreviousStation" />
+      <option name="METHOD_NAME" value="shouldIncreaseVolumeUpperLimitValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,10 +134,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RadioTest.shouldSwitchPreviousOverLimit" />
-        <item itemvalue="JUnit.RadioTest.shouldSwitchPreviousStation" />
-        <item itemvalue="JUnit.RadioTest.shouldSwitchNextOverLimit" />
-        <item itemvalue="JUnit.RadioTest.shouldSwitchNextStation" />
+        <item itemvalue="JUnit.RadioTest.shouldDecreaseVolume" />
+        <item itemvalue="JUnit.RadioTest.shouldDecreaseVolumeUnderLimit" />
+        <item itemvalue="JUnit.RadioTest.shouldIncreaseVolume" />
+        <item itemvalue="JUnit.RadioTest.shouldIncreaseVolumeUpperLimitValue" />
         <item itemvalue="JUnit.RadioTest" />
       </list>
     </recent_temporary>
@@ -163,5 +163,22 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java</url>
+          <line>155</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
